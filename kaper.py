@@ -54,17 +54,7 @@ def kaper_to_end(num):
 
 print('A program to find the Kaperskar Constant.')
 value = input('Enter an integer (four digits is probably best):\n')
-try:
-	kaper_to_end(value)
-except:
-	print('An integer, please.')
-
-print('We can continue as long as you like.')
-print('Enter zero to quit.')
-while value != 0:
+while True:
 	value = input()
-	try:
-		kaper_to_end(value)
-	except:
-		print('An integer, please.')
-
+	kaper_to_end(value)
+	print('\n')
