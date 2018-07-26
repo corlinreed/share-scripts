@@ -55,8 +55,4 @@ while True:
 		snowflake()
 		
 	time.sleep(3)
-<<<<<<< HEAD
 	t.reset()
-=======
-	t.reset()
->>>>>>> e0d7ef5e228e839781345568d922bb6a356b6d1b
